@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,11 +112,11 @@
     </configuration>
     <list>
       <item itemvalue="npm.report:open" />
+      <item itemvalue="npm.test:chrome:headless" />
       <item itemvalue="npm.report:generate" />
       <item itemvalue="npm.test:firefox" />
       <item itemvalue="npm.test:firefox:headless" />
       <item itemvalue="npm.test:chrome" />
-      <item itemvalue="npm.test:chrome:headless" />
     </list>
     <recent_temporary>
       <list>
@@ -142,6 +143,9 @@
       <workItem from="1610676225842" duration="623000" />
       <workItem from="1610716123244" duration="3855000" />
       <workItem from="1610767471689" duration="1266000" />
+      <workItem from="1611211116252" duration="205000" />
+      <workItem from="1611214390557" duration="1622000" />
+      <workItem from="1611372847255" duration="2177000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
@@ -171,5 +175,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2268" height="382" key="GridCell.Tab.0.bottom" timestamp="1611211664993">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="2268" height="382" key="GridCell.Tab.0.bottom/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664993" />
+    <state width="2268" height="382" key="GridCell.Tab.0.center" timestamp="1611211664991">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="2268" height="382" key="GridCell.Tab.0.center/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664991" />
+    <state width="2268" height="382" key="GridCell.Tab.0.left" timestamp="1611211664990">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="2268" height="382" key="GridCell.Tab.0.left/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664990" />
+    <state width="2268" height="382" key="GridCell.Tab.0.right" timestamp="1611211664992">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="2268" height="382" key="GridCell.Tab.0.right/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664992" />
+    <state x="1002" y="623" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611214723585">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state x="1002" y="623" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611214723585" />
   </component>
 </project>
