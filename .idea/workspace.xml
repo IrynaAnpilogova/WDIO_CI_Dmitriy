@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
+      <change afterPath="$PROJECT_DIR$/conf_prev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenoid.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,10 @@
       <recent name="C:\Users\Dmitriy\WebstormProjects\webdrivertest" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test:chrome:headless">
+  <component name="RunManager" selected="npm.report:generate">
+    <configuration name="firefox.conf.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="firefox.conf.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="report:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -110,6 +117,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test:selenoid" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:selenoid" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.report:open" />
       <item itemvalue="npm.test:chrome:headless" />
@@ -117,13 +134,16 @@
       <item itemvalue="npm.test:firefox" />
       <item itemvalue="npm.test:firefox:headless" />
       <item itemvalue="npm.test:chrome" />
+      <item itemvalue="Node.js.firefox.conf.js" />
+      <item itemvalue="npm.test:selenoid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.report:generate" />
+        <item itemvalue="npm.test:selenoid" />
         <item itemvalue="npm.test:firefox" />
         <item itemvalue="npm.test:chrome" />
         <item itemvalue="npm.test:firefox:headless" />
-        <item itemvalue="npm.report:generate" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +165,8 @@
       <workItem from="1610767471689" duration="1266000" />
       <workItem from="1611211116252" duration="205000" />
       <workItem from="1611214390557" duration="1622000" />
-      <workItem from="1611372847255" duration="2177000" />
+      <workItem from="1611372847255" duration="3531000" />
+      <workItem from="1611908700822" duration="5860000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
@@ -177,22 +198,78 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2268" height="382" key="GridCell.Tab.0.bottom" timestamp="1611211664993">
+    <state x="493" y="529" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611911053920">
       <screen x="64" y="23" width="2496" height="1417" />
     </state>
-    <state width="2268" height="382" key="GridCell.Tab.0.bottom/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664993" />
-    <state width="2268" height="382" key="GridCell.Tab.0.center" timestamp="1611211664991">
+    <state x="493" y="529" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911053920" />
+    <state x="1006" y="565" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611980350114">
       <screen x="64" y="23" width="2496" height="1417" />
     </state>
-    <state width="2268" height="382" key="GridCell.Tab.0.center/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664991" />
-    <state width="2268" height="382" key="GridCell.Tab.0.left" timestamp="1611211664990">
+    <state x="1006" y="565" key="#com.intellij.fileTypes.FileTypeChooser/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611980350114" />
+    <state width="2329" height="581" key="GridCell.Tab.0.bottom" timestamp="1611980568595">
       <screen x="64" y="23" width="2496" height="1417" />
     </state>
-    <state width="2268" height="382" key="GridCell.Tab.0.left/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664990" />
-    <state width="2268" height="382" key="GridCell.Tab.0.right" timestamp="1611211664992">
+    <state width="2329" height="581" key="GridCell.Tab.0.bottom/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611980568594" />
+    <state width="2329" height="581" key="GridCell.Tab.0.center" timestamp="1611980568593">
       <screen x="64" y="23" width="2496" height="1417" />
     </state>
-    <state width="2268" height="382" key="GridCell.Tab.0.right/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611211664992" />
+    <state width="2329" height="581" key="GridCell.Tab.0.center/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611980568593" />
+    <state width="2329" height="581" key="GridCell.Tab.0.left" timestamp="1611980568591">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="2329" height="581" key="GridCell.Tab.0.left/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611980568591" />
+    <state width="2329" height="581" key="GridCell.Tab.0.right" timestamp="1611980568593">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="2329" height="581" key="GridCell.Tab.0.right/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611980568593" />
+    <state width="1532" height="362" key="GridCell.Tab.1.bottom" timestamp="1611911888808">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.1.bottom/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888808" />
+    <state width="1532" height="362" key="GridCell.Tab.1.center" timestamp="1611911888807">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.1.center/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888807" />
+    <state width="1532" height="362" key="GridCell.Tab.1.left" timestamp="1611911888806">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.1.left/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888806" />
+    <state width="1532" height="362" key="GridCell.Tab.1.right" timestamp="1611911888807">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.1.right/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888807" />
+    <state width="1532" height="362" key="GridCell.Tab.2.bottom" timestamp="1611911888811">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.2.bottom/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888811" />
+    <state width="1532" height="362" key="GridCell.Tab.2.center" timestamp="1611911888810">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.2.center/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888810" />
+    <state width="1532" height="362" key="GridCell.Tab.2.left" timestamp="1611911888809">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.2.left/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888809" />
+    <state width="1532" height="362" key="GridCell.Tab.2.right" timestamp="1611911888810">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.2.right/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888810" />
+    <state width="1532" height="362" key="GridCell.Tab.3.bottom" timestamp="1611911888820">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.3.bottom/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888820" />
+    <state width="1532" height="362" key="GridCell.Tab.3.center" timestamp="1611911888813">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.3.center/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888813" />
+    <state width="1532" height="362" key="GridCell.Tab.3.left" timestamp="1611911888812">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.3.left/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888812" />
+    <state width="1532" height="362" key="GridCell.Tab.3.right" timestamp="1611911888816">
+      <screen x="64" y="23" width="2496" height="1417" />
+    </state>
+    <state width="1532" height="362" key="GridCell.Tab.3.right/2560.23.2560.1417/64.23.2496.1417@64.23.2496.1417" timestamp="1611911888816" />
     <state x="1002" y="623" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611214723585">
       <screen x="64" y="23" width="2496" height="1417" />
     </state>
